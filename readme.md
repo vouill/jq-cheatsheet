@@ -60,7 +60,7 @@ jq '[path(..)|map(if type=="number" then "[]" else tostring end)|join(".")|split
 ```
 
 
-## Ressources:
+## Resources:
 
 [Doc](https://stedolan.github.io/jq/manual/)
 
